@@ -21,6 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        
+        <h1>{{$title}}</h1>
+        <p>{{$Text}}</p>
     </body>
 </html>
