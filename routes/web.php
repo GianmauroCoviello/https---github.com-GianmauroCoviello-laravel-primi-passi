@@ -14,11 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // inseriamo un array associativo che conterra le informazioni da riprendere nella home
     $data= [
 
         'title' => 'Hello World',
         'Text'  => 'Ciao Laravel'
 
     ];
+    // riprendiamo l'array  nella home.blade
     return view('home',$data);
 });  
